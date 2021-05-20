@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>UNIVERSIDAD DEL ESTADO</title>
+    <style type="text/css">
+
+      *{
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .center
+      {
+        text-align: center;
+      }
+      .nav > li 
+      {
+        float: left;
+      }
+      nav
+      {
+        border:solid;
+        display: block;
+        position: absolute;
+        width: 98.5%;
+      }
+      ul, ol 
+      {
+        margin: 0px;
+        list-style: none;
+      }
+      .nav li a
+      {
+        text-align: center;
+        background-color: white;
+        color: black;
+        text-decoration: none;
+        padding: 10px 15px; 
+        min-width: 175px;
+        display: block;
+      }
+      .nav li a:hover
+      {
+        background-color: #434343;
+        color: white;
+      }
+
+      .nav li ul
+      {
+        display: none;
+        position: absolute; 
+        min-width: 175px;
+        margin-left: -40px;
+      }
+
+      .nav li:hover > ul
+      {
+        display: block;
+      }
+      
+      .nav li ul li 
+      {
+        position: relative;
+      }
+      section
+      {
+        float: left;
+        margin-top: 23px;
+        padding: 20px;
+        display: block;
+        width: 48%;
+      }
+
+      article
+      {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        float: right;
+        width: 48.1%;
+        display: block;
+        margin-top: 24px;
+      }
+
+      .contenido_p
+      {
+        text-align: justify;
+      }
+      img
+      {
+        padding: 20px;
+        width: 400px;
+      }
+
+      #copy_right
+      {
+        text-align: right;
+      }
+
+  
+    </style>
+</head>
+<body>
+  <header>
+    <div class="center">
+      <h1>Universidad del Estado</h1>
+    </div>
+    <nav id="menu">
+      <ul class="nav">
+        <li>
+          <a href="#">Inicio</a>
+        </li>
+        <li>
+          <a href="#">
+              Temas
+              <i class="fas fa-angle-down"></i>
+          </a>
+            <ul>
+              <li>
+                <a href="#">Tema 1</a>
+              </li>
+              <li>
+                <a href="#">Tema 2</a>
+              </li>
+            </ul>
+        </li>
+        <li>
+          <a href="#">
+              Recursos digitales
+              <i class="fas fa-angle-down"></i>
+          </a>
+            <ul>
+              <li>
+                <a href="#">Recurso 1</a>
+              </li>
+              <li>
+                <a href="#">Recurso 2</a>
+              </li>
+            </ul>
+        </li>
+        <li>
+          <a href="#">
+              Aprendizaje
+              <i class="fas fa-angle-down"></i>
+          </a>
+            <ul>
+              <li>
+                <a href="#">Actividad 1</a>
+              </li>
+              <li>
+                <a href="#">Actividad 2</a>
+              </li>
+            </ul>
+        </li>
+        <li>
+          <a href="#">Acerca de</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <br>
+  <section>
+    <div class="title">
+      <h2>Etiquetas Semánticas, Listas y Enlaces </h2>
+    </div>
+    <div class="contenido">
+      <div class="etiquetas">
+        <div class="titulo">
+          <h4>Etiquetas Semánticas (HTML)</h4>
+        </div>
+        <div class="contenido_p">
+          <p>
+            Inicialmente podemos definir <strong>Semántica</strong> como algo perteneciente o relativo a la significación de las palabras. Esa es la definición de la Real Academia de la Lengua Española, y así de sencillo es entender este tipo de etiquetas del lenguaje HTML: Son aquellas que dan significado a las partes del documento. 
+            <br><br>
+            Por decirlo de otra forma, estamos ante etiquetas que indican qué es el contenido que contienen, en lugar de cómo se debe formatear al mostrar el documento HTML en un cliente web.
+          </p>
+          <p id="copy_right">
+            Obtenido de: <a href="https://desarrolloweb.com/articulos/etiquetas-semanticas-html5.html">desarrolloweb.com </a>Carrizo, León - España (Junio 2012)
+          </p>
+        </div>
+      </div>
+      <div class="etiquetas">
+        <div class="titulo">
+          <h4>Listas (HTML)</h4>
+        </div>
+        <div class="contenido_p">
+          <p>
+            Las listas ordenadas sirven también para presentar información, en diversos elementos o items, con la particularidad que éstos estarán predecidos de un número o una letra para enumerarlos, siempre por un orden.
+            <br><br>
+            Para realizar las listas ordenadas usaremos las etiquetas OL (ordered list) y su cierre. Cada elemento sera igualmente indicado por la etiqueta LI, que ya vimos en las listas desordenadas.
+            <br><br>
+            Del mismo modo que para las listas desordenadas, las listas ordenadas ofrecen la posibilidad de modificar el estilo. En concreto nos es posible especificar el tipo de numeración empleado eligiendo entre números (1, 2, 3...), letras (a, b, c...) y sus mayúsculas (A, B, C,...) y números romanos en sus versiones mayúsculas (I, II, III,...) y minúsculas (i, ii, iii,...).
+          </p>
+          <p id="copy_right">
+            Obtenido de: <a href="https://desarrolloweb.com/articulos/558.php">desarrolloweb.com </a>Carrizo, León - España (Junio 2012)
+          </p>
+        </div>
+      </div>
+      <div class="etiquetas">
+        <div class="titulo">
+          <h4>Enlaces (HTML)</h4>
+        </div>
+        <div class="contenido_p">
+          <p>
+            Son los enlaces que se dirigen hacia páginas que se encuentran fuera de nuestro sitio web, es decir, cualquier otro documento que no forma parte de nuestro sitio. Generalmente nuestro sitio web estará en un dominio determinado, tipo example.com. Los enlaces remotos son los que van a páginas que estarían en otro dominio diferente.
+            <br><br>
+            Este tipo de enlaces es muy común y no representa ninguna dificultad. Simplemente colocamos en el atributo HREF de nuestra etiqueta A la URL o dirección de la página con la que queremos enlazar. 
+          </p>
+          <p id="copy_right">
+            Obtenido de: <a href="https://desarrolloweb.com/articulos/576.php">desarrolloweb.com </a>Carrizo, León - España (Junio 2012)
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <article>
+    <div class="title" style="margin-top: 30px;">
+      <img alt="etiquetas_semanticas" src="imagen/Etiquetas_semanticas.png">
+    </div>
+    <div class="title" style="margin-top: 35px;">
+      <img alt="listas" src="imagen/listas-ordenadas-html.jpg">
+    </div>
+     <div class="title">
+      <img alt="enlaces" src="imagen/ENLACES.jpeg">
+    </div>
+  </article>
+  <footer style="margin-top: 50px;">Correo: afferruchop@unadvirtual.edu.co - Skype: live:814802ebc5ce0e75 - 19 mayo 2021</footer>
+</body>
+</html>
