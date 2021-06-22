@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>UNIVERSIDAD DEL ESTADO</title>
+    <style type="text/css">
+
+    	html {
+			  min-height: 100%;
+			  position: relative;
+			}
+
+      *{
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(10%, 1fr));
+        grid-gap: 5px;
+        justify-items: center;
+        align-items: center;
+      }
+
+      .grid-item1 {
+        text-align: center;
+        /*border: black 5px solid;*/
+      }
+      .grid-item2 {
+        text-align: justify;
+        /*border: black 5px solid;*/
+      }
+      .center
+      {
+        text-align: center;
+      }
+      .nav > li 
+      {
+        float: left;
+      }
+      nav
+      {
+        border:solid;
+        display: block;
+        position: absolute;
+        width: 98.5%;
+      }
+      ul, ol 
+      {
+        margin: 0px;
+        list-style: none;
+      }
+      .nav li a
+      {
+        text-align: center;
+        background-color: white;
+        color: black;
+        text-decoration: none;
+        padding: 10px 15px; 
+        min-width: 175px;
+        display: block;
+      }
+      .nav li a:hover
+      {
+        background-color: #434343;
+        color: white;
+      }
+
+      .nav li ul
+      {
+        display: none;
+        position: absolute; 
+        min-width: 175px;
+        margin-left: -40px;
+      }
+
+      .nav li:hover > ul
+      {
+        display: block;
+      }
+      
+      .nav li ul li 
+      {
+        position: relative;
+      }
+      section
+      {
+        margin-top: 55px;
+        display: block;
+        width: 100%;
+        max-resolution: 20px;
+      }
+
+      article
+      {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        float: left;
+        width: 58.1%;
+        display: block;
+        margin-top: 24px;
+      }
+
+      aside
+      {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        float: right;
+        width: 38.1%;
+        display: block;
+      }
+
+      footer
+      {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+      }
+
+      .contenido_p
+      {
+        text-align: justify;
+      }
+      img
+      {
+        padding: 20px;
+        width: 400px;
+      }
+
+      #copy_right
+      {
+        text-align: right;
+      }
+    </style>
+</head>
+<body>
+  <header>
+    <div class="grid-container">
+      <div class="grid-item1">
+        <h1>Universidad del Estado</h1>
+      </div>
+    </div>
+  </header>
+  <nav id="menu">
+    <ul class="nav grid-container">
+      <li class="grid-item1">
+        <a href="index.html">Inicio</a>
+      </li>
+      <li class="grid-item1">
+        <a href="#">
+            Temas
+            <i class="fas fa-angle-down"></i>
+        </a>
+          <ul>
+            <li>
+              <a href="tema1.html">Tema 1</a>
+            </li>
+            <li>
+              <a href="tema2.html">Tema 2</a>
+            </li>
+          </ul>
+      </li>
+      <li class="grid-item1">
+        <a href="#">
+            Recursos digitales
+            <i class="fas fa-angle-down"></i>
+        </a>
+          <ul>
+            <li>
+              <a href="recurso1.html">Recurso 1</a>
+            </li>
+            <li>
+              <a href="recurso2.html">Recurso 2</a>
+            </li>
+          </ul>
+      </li>
+      <li class="grid-item1">
+        <a href="#">
+            Aprendizaje
+            <i class="fas fa-angle-down"></i>
+        </a>
+          <ul>
+            <li>
+              <a href="actividad1.html">Actividad 1</a>
+            </li>
+            <li>
+              <a href="actividad2.html">Actividad 2</a>
+            </li>
+          </ul>
+      </li>
+      <li class="grid-item1">
+        <a href="autor.html">Autor</a>
+      </li>
+    </ul>
+  </nav>
+  <section>
+  	<article>
+	    <div class="grid-container">
+	      <div class="grid-item1">
+	        <img src="../fase2/imagen/Yo.jpg" alt="Anderson Ferrucho">
+	      </div>
+	    </div>
+	  </article>
+	  <aside style="margin-bottom: 50px;">
+	    <div class="grid-container">
+	      <div class="grid-item1">
+	        <h2>Nombre:</h2>
+	      </div>
+	    </div>
+	    <div class="grid-container">
+	      <div class="grid-item2">
+	        <h3>Anderson Fabian Ferrucho Pérez </h3>
+	      </div>
+	    </div>
+	    <div class="grid-container">
+	      <div class="grid-item1">
+	        <h2>Código:</h2>
+	      </div>
+	    </div>
+	    <div class="grid-container">
+	      <div class="grid-item2">
+	        <h3>80.766.854</h3>
+	      </div>
+	    </div>
+	    <div class="grid-container">
+	      <div class="grid-item1">
+	        <h2>Programa:</h2>
+	      </div>
+	    </div>
+	    <div class="grid-container">
+	      <div class="grid-item2">
+	        <h3>Ingeniería de Sistemas</h3>
+	      </div>
+	    </div>
+	    <div class="grid-container">
+	      <div class="grid-item1">
+	        <h2>Correo:</h2>
+	      </div>
+	    </div>
+	    <div class="grid-container">
+	      <div class="grid-item2">
+	        <h3>afferruchop@unadvirtual.edu.co</h3>
+	      </div>
+	    </div>
+	    <div class="grid-container">
+	      <div class="grid-item1">
+	        <h2>Skype:</h2>
+	      </div>
+	    </div>
+	    <div class="grid-container">
+	      <div class="grid-item2">
+	        <h3>live:814802ebc5ce0e75</h3>
+	      </div>
+	    </div>
+	  </aside>
+  </section>
+  <footer>
+  	<div class="grid-container">
+    	<div class="grid-item2">
+      		Correo: afferruchop@unadvirtual.edu.co - Skype: live:814802ebc5ce0e75 - 21 junio 2021
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
